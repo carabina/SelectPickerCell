@@ -1,7 +1,7 @@
 # SelectPickerCell
 
 <p align="center">
-<img src="https://www.dropbox.com/s/q7f7v7kk90f3xhe/selectpickercell.gif"/>
+<img src="https://dl.dropbox.com/s/q7f7v7kk90f3xhe/selectpickercell.gif"/>
 </p>
 
 
