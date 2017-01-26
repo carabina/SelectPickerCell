@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SelectPickerCell_Example' do
+  pod 'SelectPickerCell', :path => '../'
+
+  target 'SelectPickerCell_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
