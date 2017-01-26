@@ -1,9 +1,10 @@
 # SelectPickerCell
 
-[![CI Status](http://img.shields.io/travis/Phong Le/SelectPickerCell.svg?style=flat)](https://travis-ci.org/Phong Le/SelectPickerCell)
-[![Version](https://img.shields.io/cocoapods/v/SelectPickerCell.svg?style=flat)](http://cocoapods.org/pods/SelectPickerCell)
-[![License](https://img.shields.io/cocoapods/l/SelectPickerCell.svg?style=flat)](http://cocoapods.org/pods/SelectPickerCell)
-[![Platform](https://img.shields.io/cocoapods/p/SelectPickerCell.svg?style=flat)](http://cocoapods.org/pods/SelectPickerCell)
+<p align="center">
+<img src="https://www.dropbox.com/s/q7f7v7kk90f3xhe/selectpickercell.gif"/>
+</p>
+
+
 
 Inline/Expanding UIPicker for table views.
 
