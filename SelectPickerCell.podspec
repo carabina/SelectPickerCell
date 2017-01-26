@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = 'SelectPickerCell'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of SelectPickerCell.'
+  s.summary          = 'SelectPickerCell is a UITableviewCell with a UIPicker'
 
   s.description      = <<-DESC
 										Inline/Expanding uitableviewcell that shows a UIPicker.
