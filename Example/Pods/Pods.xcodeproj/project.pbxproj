@@ -1,0 +1,707 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		127420F791BABC7CAF039C69A0C8EDDB /* SelectPickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A9D78EE12ACCC70D8540A2CA6441C63 /* SelectPickerCell.swift */; };
+		14F38D4845EDC2C5530065768A96A731 /* SelectPickerCell-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EDB4B4DD46BAA1A0913B408041B21B7 /* SelectPickerCell-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E3850EC2395E2C16618860703D27B47 /* Pods-SelectPickerCell_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 89861D3541F28C772D26401CE0953FDB /* Pods-SelectPickerCell_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2634418A217286EE98BDC84AFF650F92 /* Pods-SelectPickerCell_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E920F290A8C402C6953FD367E17D9B5 /* Pods-SelectPickerCell_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41FBA5A40BFB61003D5DD01D78D518C9 /* Pods-SelectPickerCell_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF1F65C52B13094B169133D0C72E29A /* Pods-SelectPickerCell_Example-dummy.m */; };
+		752110F9FB77F32C6A568785CB5EBEDF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		A7CF2D82DD5CDA5187C7B33CEF40CD44 /* SelectPickerCell-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 214DC681ED7288DAE5509795C4846F91 /* SelectPickerCell-dummy.m */; };
+		A8A98495C8CB1973ACC5A90B0FDF9614 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		AB539BDD4954B504FAD1E27F054791D8 /* Pods-SelectPickerCell_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED4187A9C0B30EA42E391A790BE9631B /* Pods-SelectPickerCell_Tests-dummy.m */; };
+		B5F62D46A989ECD6810C39A64D0DA01E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7729AA95F32285EBF3A1B066CA5E6EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16F61335F9838CB2177F93EBC7412C1E;
+			remoteInfo = SelectPickerCell;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07B929832EE1B9E8F03AD30944BA96DB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08BC161D7FB8EBDAB0E5FE50E5117223 /* Pods-SelectPickerCell_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SelectPickerCell_Example-resources.sh"; sourceTree = "<group>"; };
+		0F8E1EE31B5849BD3407078881A444C8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BB3955F1E886266F9FC9DB2A7BCB292 /* Pods-SelectPickerCell_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SelectPickerCell_Example.release.xcconfig"; sourceTree = "<group>"; };
+		214DC681ED7288DAE5509795C4846F91 /* SelectPickerCell-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SelectPickerCell-dummy.m"; sourceTree = "<group>"; };
+		2DFE39EC8BC7272654E631ABEF7FCB66 /* Pods_SelectPickerCell_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SelectPickerCell_Tests.framework; path = "Pods-SelectPickerCell_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BF41826FDAD3B15ADA86E3C65F6F2D2 /* Pods-SelectPickerCell_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SelectPickerCell_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		46964FA83B6417DD58A329963CDF2A40 /* Pods-SelectPickerCell_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SelectPickerCell_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		4F742EB77DF0759E16B8E29BDBE6219E /* SelectPickerCell-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SelectPickerCell-prefix.pch"; sourceTree = "<group>"; };
+		5F89E774EF2AC6F28956DEBDC5031022 /* SelectPickerCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SelectPickerCell.framework; path = SelectPickerCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A9D78EE12ACCC70D8540A2CA6441C63 /* SelectPickerCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SelectPickerCell.swift; sourceTree = "<group>"; };
+		74F662C8DE009A9A8C87701B9FA36E5A /* Pods-SelectPickerCell_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SelectPickerCell_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		783C1054A9159EA294D895A2DFB6E057 /* Pods-SelectPickerCell_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SelectPickerCell_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7E920F290A8C402C6953FD367E17D9B5 /* Pods-SelectPickerCell_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SelectPickerCell_Tests-umbrella.h"; sourceTree = "<group>"; };
+		7EDB4B4DD46BAA1A0913B408041B21B7 /* SelectPickerCell-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SelectPickerCell-umbrella.h"; sourceTree = "<group>"; };
+		837AF6C66C13D390E02828CFB96FE9AD /* Pods-SelectPickerCell_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SelectPickerCell_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		89861D3541F28C772D26401CE0953FDB /* Pods-SelectPickerCell_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SelectPickerCell_Example-umbrella.h"; sourceTree = "<group>"; };
+		8A832E0366768BC1032D23D262FD7938 /* Pods-SelectPickerCell_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SelectPickerCell_Tests-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9980ECAB8A73C80A766574FB09E3F68F /* SelectPickerCell.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SelectPickerCell.xcconfig; sourceTree = "<group>"; };
+		9B2D4F336AEADE8F748D31C4ACF6F5A9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FC2815BA6C7C5888650C6A606123C33 /* Pods_SelectPickerCell_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SelectPickerCell_Example.framework; path = "Pods-SelectPickerCell_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B30DF3576D24F4B360C97D374EF8511D /* Pods-SelectPickerCell_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SelectPickerCell_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C1E61383A4A50D4477F2ACDEFE8B5042 /* SelectPickerCell.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SelectPickerCell.modulemap; sourceTree = "<group>"; };
+		CB4B0003E0AE9DD0D425509C65C6158B /* Pods-SelectPickerCell_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SelectPickerCell_Example.modulemap"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CF58AD59D9369E8A8B3639CE11EDF4D1 /* Pods-SelectPickerCell_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SelectPickerCell_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E5B082A9B09FA5101127EA59BEE61B5D /* Pods-SelectPickerCell_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SelectPickerCell_Tests.modulemap"; sourceTree = "<group>"; };
+		E9BF2AF0E45F8BE9EC56CB7E55FC47AA /* Pods-SelectPickerCell_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SelectPickerCell_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		ED4187A9C0B30EA42E391A790BE9631B /* Pods-SelectPickerCell_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SelectPickerCell_Tests-dummy.m"; sourceTree = "<group>"; };
+		EEF1F65C52B13094B169133D0C72E29A /* Pods-SelectPickerCell_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SelectPickerCell_Example-dummy.m"; sourceTree = "<group>"; };
+		EF0E12756A21DD6B54035F2C8527DAD5 /* Pods-SelectPickerCell_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SelectPickerCell_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		366B55BE1C76B81F35B0E901D8930877 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				752110F9FB77F32C6A568785CB5EBEDF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FBEB98CB760D9D1924F2E1CD846847C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8A98495C8CB1973ACC5A90B0FDF9614 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA7EDF09DF33322B6C7EF470081C1935 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5F62D46A989ECD6810C39A64D0DA01E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		204928B9CEDF51C8EEFE8D2DB9861357 /* Pods-SelectPickerCell_Example */ = {
+			isa = PBXGroup;
+			children = (
+				9B2D4F336AEADE8F748D31C4ACF6F5A9 /* Info.plist */,
+				CB4B0003E0AE9DD0D425509C65C6158B /* Pods-SelectPickerCell_Example.modulemap */,
+				EF0E12756A21DD6B54035F2C8527DAD5 /* Pods-SelectPickerCell_Example-acknowledgements.markdown */,
+				46964FA83B6417DD58A329963CDF2A40 /* Pods-SelectPickerCell_Example-acknowledgements.plist */,
+				EEF1F65C52B13094B169133D0C72E29A /* Pods-SelectPickerCell_Example-dummy.m */,
+				CF58AD59D9369E8A8B3639CE11EDF4D1 /* Pods-SelectPickerCell_Example-frameworks.sh */,
+				08BC161D7FB8EBDAB0E5FE50E5117223 /* Pods-SelectPickerCell_Example-resources.sh */,
+				89861D3541F28C772D26401CE0953FDB /* Pods-SelectPickerCell_Example-umbrella.h */,
+				B30DF3576D24F4B360C97D374EF8511D /* Pods-SelectPickerCell_Example.debug.xcconfig */,
+				1BB3955F1E886266F9FC9DB2A7BCB292 /* Pods-SelectPickerCell_Example.release.xcconfig */,
+			);
+			name = "Pods-SelectPickerCell_Example";
+			path = "Target Support Files/Pods-SelectPickerCell_Example";
+			sourceTree = "<group>";
+		};
+		230BE74F15FE10B986E29B6972DCCA3E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6A9D78EE12ACCC70D8540A2CA6441C63 /* SelectPickerCell.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		332185CE86A9061B62D95FDEB909F2BD /* SelectPickerCell */ = {
+			isa = PBXGroup;
+			children = (
+				4621450B85131636BB29EC0109DB5FF8 /* SelectPickerCell */,
+				46D1D443F4F04109DA602CAA15B73837 /* Support Files */,
+			);
+			name = SelectPickerCell;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		45E16AE11EBE489B000419680B89588E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				332185CE86A9061B62D95FDEB909F2BD /* SelectPickerCell */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		4621450B85131636BB29EC0109DB5FF8 /* SelectPickerCell */ = {
+			isa = PBXGroup;
+			children = (
+				230BE74F15FE10B986E29B6972DCCA3E /* Classes */,
+			);
+			name = SelectPickerCell;
+			path = SelectPickerCell;
+			sourceTree = "<group>";
+		};
+		46D1D443F4F04109DA602CAA15B73837 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0F8E1EE31B5849BD3407078881A444C8 /* Info.plist */,
+				C1E61383A4A50D4477F2ACDEFE8B5042 /* SelectPickerCell.modulemap */,
+				9980ECAB8A73C80A766574FB09E3F68F /* SelectPickerCell.xcconfig */,
+				214DC681ED7288DAE5509795C4846F91 /* SelectPickerCell-dummy.m */,
+				4F742EB77DF0759E16B8E29BDBE6219E /* SelectPickerCell-prefix.pch */,
+				7EDB4B4DD46BAA1A0913B408041B21B7 /* SelectPickerCell-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SelectPickerCell";
+			sourceTree = "<group>";
+		};
+		6A9ED7232E0D1DD3D3EE7BC12E32DAE2 /* Pods-SelectPickerCell_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				07B929832EE1B9E8F03AD30944BA96DB /* Info.plist */,
+				E5B082A9B09FA5101127EA59BEE61B5D /* Pods-SelectPickerCell_Tests.modulemap */,
+				783C1054A9159EA294D895A2DFB6E057 /* Pods-SelectPickerCell_Tests-acknowledgements.markdown */,
+				E9BF2AF0E45F8BE9EC56CB7E55FC47AA /* Pods-SelectPickerCell_Tests-acknowledgements.plist */,
+				ED4187A9C0B30EA42E391A790BE9631B /* Pods-SelectPickerCell_Tests-dummy.m */,
+				74F662C8DE009A9A8C87701B9FA36E5A /* Pods-SelectPickerCell_Tests-frameworks.sh */,
+				8A832E0366768BC1032D23D262FD7938 /* Pods-SelectPickerCell_Tests-resources.sh */,
+				7E920F290A8C402C6953FD367E17D9B5 /* Pods-SelectPickerCell_Tests-umbrella.h */,
+				3BF41826FDAD3B15ADA86E3C65F6F2D2 /* Pods-SelectPickerCell_Tests.debug.xcconfig */,
+				837AF6C66C13D390E02828CFB96FE9AD /* Pods-SelectPickerCell_Tests.release.xcconfig */,
+			);
+			name = "Pods-SelectPickerCell_Tests";
+			path = "Target Support Files/Pods-SelectPickerCell_Tests";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				45E16AE11EBE489B000419680B89588E /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				9F305B80E68448A3488321FC443761DB /* Products */,
+				9F53FB96ACEC11D5CBB713528FC45522 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9F305B80E68448A3488321FC443761DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FC2815BA6C7C5888650C6A606123C33 /* Pods_SelectPickerCell_Example.framework */,
+				2DFE39EC8BC7272654E631ABEF7FCB66 /* Pods_SelectPickerCell_Tests.framework */,
+				5F89E774EF2AC6F28956DEBDC5031022 /* SelectPickerCell.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9F53FB96ACEC11D5CBB713528FC45522 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				204928B9CEDF51C8EEFE8D2DB9861357 /* Pods-SelectPickerCell_Example */,
+				6A9ED7232E0D1DD3D3EE7BC12E32DAE2 /* Pods-SelectPickerCell_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		842E3C7BF242EA0423301D3D57019FC4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14F38D4845EDC2C5530065768A96A731 /* SelectPickerCell-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91BEC6939052EA28CCE8D442A1EB7354 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E3850EC2395E2C16618860703D27B47 /* Pods-SelectPickerCell_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		925A2F169543B465F17C1CBD3901B8D4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2634418A217286EE98BDC84AFF650F92 /* Pods-SelectPickerCell_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		16F61335F9838CB2177F93EBC7412C1E /* SelectPickerCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C12CF653B96E3A6C4912EEE068389808 /* Build configuration list for PBXNativeTarget "SelectPickerCell" */;
+			buildPhases = (
+				6A6803833C00DD393D3D946693A19EE6 /* Sources */,
+				3FBEB98CB760D9D1924F2E1CD846847C /* Frameworks */,
+				842E3C7BF242EA0423301D3D57019FC4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SelectPickerCell;
+			productName = SelectPickerCell;
+			productReference = 5F89E774EF2AC6F28956DEBDC5031022 /* SelectPickerCell.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		727E59F4184330D23D25AC509F000555 /* Pods-SelectPickerCell_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 247F0FD260A9B1AAB9AAC67071B5C4D0 /* Build configuration list for PBXNativeTarget "Pods-SelectPickerCell_Example" */;
+			buildPhases = (
+				C2061D4596A252ED1018AD04B0AE669D /* Sources */,
+				DA7EDF09DF33322B6C7EF470081C1935 /* Frameworks */,
+				91BEC6939052EA28CCE8D442A1EB7354 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D2164917106512E65BB9B646ED35273 /* PBXTargetDependency */,
+			);
+			name = "Pods-SelectPickerCell_Example";
+			productName = "Pods-SelectPickerCell_Example";
+			productReference = 9FC2815BA6C7C5888650C6A606123C33 /* Pods_SelectPickerCell_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EB5CB8475CC83EE5DA35F8F1EA3349A8 /* Pods-SelectPickerCell_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 906E5ACEF9A3AFF2E624C9B658AA1BAE /* Build configuration list for PBXNativeTarget "Pods-SelectPickerCell_Tests" */;
+			buildPhases = (
+				17DD69A895BDAD2121C0F28D9C305C9F /* Sources */,
+				366B55BE1C76B81F35B0E901D8930877 /* Frameworks */,
+				925A2F169543B465F17C1CBD3901B8D4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SelectPickerCell_Tests";
+			productName = "Pods-SelectPickerCell_Tests";
+			productReference = 2DFE39EC8BC7272654E631ABEF7FCB66 /* Pods_SelectPickerCell_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 9F305B80E68448A3488321FC443761DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				727E59F4184330D23D25AC509F000555 /* Pods-SelectPickerCell_Example */,
+				EB5CB8475CC83EE5DA35F8F1EA3349A8 /* Pods-SelectPickerCell_Tests */,
+				16F61335F9838CB2177F93EBC7412C1E /* SelectPickerCell */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17DD69A895BDAD2121C0F28D9C305C9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB539BDD4954B504FAD1E27F054791D8 /* Pods-SelectPickerCell_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A6803833C00DD393D3D946693A19EE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7CF2D82DD5CDA5187C7B33CEF40CD44 /* SelectPickerCell-dummy.m in Sources */,
+				127420F791BABC7CAF039C69A0C8EDDB /* SelectPickerCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2061D4596A252ED1018AD04B0AE669D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41FBA5A40BFB61003D5DD01D78D518C9 /* Pods-SelectPickerCell_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D2164917106512E65BB9B646ED35273 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SelectPickerCell;
+			target = 16F61335F9838CB2177F93EBC7412C1E /* SelectPickerCell */;
+			targetProxy = D7729AA95F32285EBF3A1B066CA5E6EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D7FEC2F705AA4BE8722704AE123ECF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 837AF6C66C13D390E02828CFB96FE9AD /* Pods-SelectPickerCell_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SelectPickerCell_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SelectPickerCell_Tests/Pods-SelectPickerCell_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SelectPickerCell_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3A806D0BA414E4F6E39BC82FDBB7E2F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BB3955F1E886266F9FC9DB2A7BCB292 /* Pods-SelectPickerCell_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SelectPickerCell_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SelectPickerCell_Example/Pods-SelectPickerCell_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SelectPickerCell_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3F49D1301AEEA859472C88A2A97C8FCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9980ECAB8A73C80A766574FB09E3F68F /* SelectPickerCell.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SelectPickerCell/SelectPickerCell-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SelectPickerCell/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SelectPickerCell/SelectPickerCell.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SelectPickerCell;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4427546B33330595F2CBD1E80E3717FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9980ECAB8A73C80A766574FB09E3F68F /* SelectPickerCell.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SelectPickerCell/SelectPickerCell-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SelectPickerCell/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SelectPickerCell/SelectPickerCell.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SelectPickerCell;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4EE8079E1015B5D6E30072E2E3B794A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B30DF3576D24F4B360C97D374EF8511D /* Pods-SelectPickerCell_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SelectPickerCell_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SelectPickerCell_Example/Pods-SelectPickerCell_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SelectPickerCell_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B45A62189BFD017CF184B2A695E5331E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BF41826FDAD3B15ADA86E3C65F6F2D2 /* Pods-SelectPickerCell_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SelectPickerCell_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SelectPickerCell_Tests/Pods-SelectPickerCell_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SelectPickerCell_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		247F0FD260A9B1AAB9AAC67071B5C4D0 /* Build configuration list for PBXNativeTarget "Pods-SelectPickerCell_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EE8079E1015B5D6E30072E2E3B794A7 /* Debug */,
+				3A806D0BA414E4F6E39BC82FDBB7E2F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		906E5ACEF9A3AFF2E624C9B658AA1BAE /* Build configuration list for PBXNativeTarget "Pods-SelectPickerCell_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B45A62189BFD017CF184B2A695E5331E /* Debug */,
+				0D7FEC2F705AA4BE8722704AE123ECF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C12CF653B96E3A6C4912EEE068389808 /* Build configuration list for PBXNativeTarget "SelectPickerCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4427546B33330595F2CBD1E80E3717FE /* Debug */,
+				3F49D1301AEEA859472C88A2A97C8FCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

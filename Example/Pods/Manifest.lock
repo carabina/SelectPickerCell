@@ -1,0 +1,16 @@
+PODS:
+  - SelectPickerCell (0.1.0)
+
+DEPENDENCIES:
+  - SelectPickerCell (from `../`)
+
+EXTERNAL SOURCES:
+  SelectPickerCell:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SelectPickerCell: f01da4799a152138ddae0fe05dcf88ec75a002d2
+
+PODFILE CHECKSUM: 69d983fa6d1010ca8b049c635d1b9aa3cbfc9023
+
+COCOAPODS: 1.2.0.rc.1

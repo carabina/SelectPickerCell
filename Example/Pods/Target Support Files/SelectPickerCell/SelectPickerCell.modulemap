@@ -1,0 +1,6 @@
+framework module SelectPickerCell {
+  umbrella header "SelectPickerCell-umbrella.h"
+
+  export *
+  module * { export * }
+}
